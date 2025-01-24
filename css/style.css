@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;        }
+/* los  herrores en este  css estan  puesto para  mejorar  el proyecto en futuro*/ 
+
+
+/*@font-face {
+    font-family: nombre de la fuente ;
+    src: url(../assets/fuentes/);
+}*/
+
+
+body{
+background-color: rgb(0, 0, 0);
+height: 100vh;
+}
+
+html { font-size: 1rem;
+
+}
+
+
+/* header y barra de navegacion 
+*/
+
+header{
+    width:100% ;
+    
+
+    background-color: rgb(148, 114, 2);
+    position: relative;
+
+}
+header nav{bacground-color: #6b6405;
+    width: 100%;
+    padding: 30px
+    0px;
+
+
+}
+header .header-img img{
+    width:100% ;
+    height:  200px; ;
+}
+
+header .header-logo img{
+    width: 500px;
+    padding-left: 60px; display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 10px;
+    left:40px ;
+}
+.header-login a{
+    color: #c0b518;
+}
+    .header-login{
+        width: 200px;
+        height:170px ; 
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        top: 0;
+        right: 40px;
+        border-radius: 0px 0px 25px 25px;
+    }
+    .header-login button{
+        padding: 20px 30px ;
+        /*border: ;
+border-radius: ;*/
+
+
+    }
+
+.header-nav li a {color: aliceblue;
+    font-size: 30px;
+    padding: 20px;
+    color: rgb(246, 250, 250);
+    font-size: 25px;
+    font-family: "Roboto", serif;
+    
+
+
+}
+header .header-nav{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+
+} 
+/*main{   }*/
+
+header a img{width: 200px;
+
+}
+header  img{width: 5000px;
+
+}
+
+img{
+    width: 600px;
+}
+.tangoargentino0{color: aliceblue;
+
+    
+    
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 800;
+    font-style: normal;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+;}
+
+.tangoargentino{color: aliceblue;
+
+
+    
+        font-family: "Rubik Vinyl", serif;
+        font-weight: 800;
+        font-style: normal;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    ;}
+
+.biguinners{display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;background-color: rgb(0, 0, 0); } 
+    .Beginners-Courses{color: rgb(246, 250, 250);
+    font-size: 25px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;}
+    
+        
+            
+    
+    
+    
+    
+    .texto1{color: aliceblue;}
+    
+
+.fotodebeso{ display: flex;
+    justify-content: center;}
+    .mondaytangocourse{color: rgb(255, 255, 255);}
+
+
+
+    .booknow{padding:5px  30px;
+        border: 2px  inset gold;
+    margin:30px ;
+border-radius: 20px;}
+
+
+li{list-style: none ;}
+nav{
+    width: 90%;
+}
+
+.menu{
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction:row;
+    gap: 50px;}
+
+
+
+/*estilos de star-dancing cartas*/
+.cardcurso{display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+    }
+
+
+.card-book{width: 300px;
+height: 300px;
+background-color: rgb(21, 21, 22);
+margin-bottom: 10px;
+/*border-radius: ;
+box-shadow:/*  2px 2px 5px  y color  ;*/
+}    
+
+.card-book img{width:20% ;height: 20%S;
+object-fit: contain;
+color: rgb(233, 230, 230);}
+
+.card-book h2{font-size: 22px;
+text-align: center;}
+.card-book h3{font-size: 22px;
+    text-align: center;}
+.card-book p{font-size: 15px;
+    text-align: center;}
+
+.card-book button{padding:5px  30px;
+        border: 2px  inset gold;
+    margin:30px ;
+border-radius: 20px;}
+    
+
+    .container{  width: 20%;
+        margin-left: auto;
+        padding: 100px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+    
+    h2 {
+        text-align: center;
+        color: #333;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    label {
+        margin: 10px 0px;
+        font-weight: bold;
+    }
+    input, textarea {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    input[type="submit"] {
+        background-color: #020202;
+        color: rgb(180, 156, 18);
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    input[type="submit"]:hover {
+        background-color: #c0b518;
+    }
+        
+
+
+.tangoargentino{color: #020202;}
+.bodystart{ background-color: aliceblue;}
+
+
+
+    /*codigo grids*/
+
+
+
+    .index-principal{
+        width: 100%;
+        height: 600px;
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+        grid-template-rows: repeat(6,1fr);
+    }
+    
+    .index-principal img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .index-principal h1{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        order: 3;
+        background-color: rgba(128, 128, 128, 0.468);
+        padding: 30px 2.5rem;
+    }
+    .index-principal p{
+        order: 4;
+        font-size: 25px;
+        position:center;
+        color: rgb(248, 251, 253);
+    }
+    .index-principal .img-1{
+        grid-column: 1/5;
+        grid-row: 1/6;
+        justify-items: center;
+        align-items: center;
+        order: 1; 
+        
+    }
+    .img-3{
+        grid-column: 3/6;
+        grid-row: 4/6;
+        object-fit: contain;
+        order: 2;
+    }
+    
+    .container-grid{
+        display: grid;
+        width: 100%;
+        height: 600px;
+        background-color: black;
+        /*css nos ofrece una medida que solamente funciona con esta propiedad de grid
+        fraction fr
+        */
+        /* grid-template-columns:400px repeat(3,200px) 200px; el maximo de columnas es 12
+        grid-template-rows: repeat(2,200px); infinito */
+    
+        /*en una misma linea de codigo puedo declarar row / column*/
+        grid-template:  repeat(2,200px) /  400px repeat(4,200px); 
+        grid-template-areas: 
+        
+        "item1 item2 pepito item3 item4"
+        "item1 item2 item6 item7 item7"
+        
+        /*row-gap: .9375rem;
+        column-gap: 1.5625rem;*/
+    
+        /*
+        para mover todo el contenedor tenemos 2 propiedades
+        justify-content
+        align-content
+        */
+        /*justify-content: center;/*horizontal*/
+        /*align-content: center;/*vertical*/
+        /*
+        propiedades para mover los items.
+        justify-items
+        align-items
+        (se va a comportar el elemento como si fuese en linea
+        solamente ocupando el espacio de su contenido)
+    
+        */
+        
+        
+        /*justify-items: center;
+        align-items: start;*/
+    }
+    .item0{background-color: #020202;  
+        grid-column: 5/9;
+        grid-row: 1/6;
+        position: relative;
+    
+    }
+    .item1{
+        background-color: rgb(11, 193, 253);
+        grid-area: item1;
+    }
+    .item2{
+        background-color: rgb(251, 179, 134);
+        grid-area: pepito;
+    }
+    .item3{
+        background-color: rgb(228, 228, 228);
+        grid-area: item3;
+    }
+    .item4{
+        background-color: rgb(118, 255, 248);
+        grid-area: item4;
+    
+    }
+    .item5{
+        background-color: rgb(212, 89, 236);
+        grid-area: item5;
+    }
+    .item6{
+        background-color: rgb(212, 69, 69);
+        grid-area: item6;
+    }
+    
+    .item7{
+        background-color: rgb(193, 186, 43);
+        grid-area: item7;
+    }
+
+    /*footer*/
+
+
+    .texto-blanco a{color: aliceblue;
+    margin: 25px;}
+    
+
+    .texto-blanco p{color: aliceblue;
+    margin: 50px;}
+
+    footer a{color: #020202;
+        margin: 25px;
+    }
+
+
+
+
+    footer p{color: #020202;
+        margin: 50px;}
+
