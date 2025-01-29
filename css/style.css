@@ -401,3 +401,270 @@ border-radius: 20px;}
     footer p{color: #020202;
         margin: 50px;}
 
+
+
+
+        /* Reset y estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tipografías */
+body {
+    font-family: "Roboto", serif;
+    background-color: #000;
+    height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Rubik Vinyl", serif;
+    color: #fff;
+}
+
+/* Estilos globales */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    background-color: rgb(148, 114, 2);
+    position: relative;
+}
+
+.header-logo img {
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.header-img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.header-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav {
+    width: 100%;
+    background-color: #6b6405;
+    padding: 15px 0;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header-nav li a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.header-login {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.header-login button,
+.header-login a {
+    background-color: #000;
+    color: #c0b518;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* MAIN */
+main {
+    padding: 20px;
+}
+
+.tangoargentino,
+.tangoargentino0 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.biguinners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    padding: 20px;
+}
+
+.Beginners-Courses {
+    color: #f6fafa;
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.texto1 {
+    color: #fff;
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.fotodebeso {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.booknow {
+    padding: 10px 30px;
+    border: 2px inset gold;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cardcurso {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-book {
+    width: 100%;
+    max-width: 300px;
+    background-color: rgb(21, 21, 22);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card-book img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.card-book h2,
+.card-book h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.card-book p {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.card-book button {
+    padding: 10px 20px;
+    border: 2px inset gold;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background-color: #020202;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #c0b518;
+    margin-bottom: 10px;
+    display: block;
+}
+
+footer p {
+    color: #fff;
+}
+
+/* MEDIA QUERIES */
+/* Para tablets */
+@media (max-width: 768px) {
+    .header-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-login {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .biguinners {
+        padding: 10px;
+    }
+
+    .texto1 {
+        padding: 0 10px;
+    }
+
+    .cardcurso {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Para móviles */
+@media (max-width: 480px) {
+    .header-logo img {
+        width: 100px;
+        left: 10px;
+    }
+
+    .header-img {
+        height: 150px;
+    }
+
+    .header-nav li a {
+        font-size: 0.9rem;
+    }
+
+    .header-login button,
+    .header-login a {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+
+    .biguinners {
+        padding: 10px;
+    }
+
+    .Beginners-Courses {
+        font-size: 1.2rem;
+    }
+
+    .card-book {
+        width: 90%;
+    }
+}
