@@ -628,7 +628,6 @@ footer p {
     }
 
     .header-login {
-        position: static;
         margin-top: 125px; width:200px;
         height:100px ; 
         background-color: black;
@@ -807,7 +806,7 @@ footer p{ display: none;}
     }
 
     .header-login {
-        position: static;
+        /*position: static;*/
         margin-top: 145px; width:200px;
         height:100px ; 
         background-color: black;
@@ -1227,15 +1226,16 @@ footer p {
 
 /* MEDIA QUERIES */
 /* Para tablets */
-@media (max-width: 768px) {
+@media (max-width: 768px)   {
     .header-nav {
         flex-direction: column;
-        align-items: center;
+        align-items:start;
     }
 
     .header-login {
-        position: static;
-        margin-top: 20px;
+        
+        margin-top: 125px;
+        margin-right:0px ;
     }
 
     .biguinners {
@@ -1252,36 +1252,4 @@ footer p {
     }
 }
 
-/* Para móviles */
-@media (max-width: 480px) {
-    .header-logo img {
-        width: 100px;
-        left: 10px;
-    }
 
-    .header-img {
-        height: 150px;
-    }
-
-    .header-nav li a {
-        font-size: 0.9rem;
-    }
-
-    .header-login button,
-    .header-login a {
-        padding: 8px 12px;
-        font-size: 0.9rem;
-    }
-
-    .biguinners {
-        padding: 10px;
-    }
-
-    .Beginners-Courses {
-        font-size: 1.2rem;
-    }
-
-    .card-book {
-        width: 90%;
-    }
-}
