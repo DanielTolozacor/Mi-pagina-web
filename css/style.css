@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +15,12 @@ box-sizing: border-box;        }
 
 body{
 background-color: rgb(0, 0, 0);
-height: 100vh;
+/*height: 100vh;*/
+
+font-family: Arial, sans-serif;
+margin: 0;
+
+text-align: center;
 }
 
 html { font-size: 1rem;
@@ -54,6 +61,12 @@ header .header-logo img{
     top: 10px;
     left:40px ;
 }
+
+
+
+
+
+
 .header-login a{
     color: #c0b518;
 }
@@ -96,6 +109,8 @@ header .header-nav{
 
 } 
 /*main{   }*/
+main{ margin: 0px;
+padding: 0px;}
 
 header a img{width: 200px;
 
@@ -318,8 +333,8 @@ border-radius: 20px;}
         grid-template:  repeat(2,200px) /  400px repeat(4,200px); 
         grid-template-areas: 
         
-        "item1 item2 pepito item3 item4"
-        "item1 item2 item6 item7 item7"
+        "item1 item2 iten3 item4 item5"
+        "item1 item2 item3 item4 item5"
         
         /*row-gap: .9375rem;
         column-gap: 1.5625rem;*/
@@ -344,7 +359,7 @@ border-radius: 20px;}
         /*justify-items: center;
         align-items: start;*/
     }
-    .item0{background-color: #020202;  
+    .item0{background-color: #080505;  
         grid-column: 5/9;
         grid-row: 1/6;
         position: relative;
@@ -355,7 +370,7 @@ border-radius: 20px;}
         grid-area: item1;
     }
     .item2{
-        background-color: rgb(251, 179, 134);
+        background-color: rgb(247, 98, 6);
         grid-area: pepito;
     }
     .item3{
@@ -399,7 +414,609 @@ border-radius: 20px;}
 
 
     footer p{color: #020202;
-        margin: 50px;}
+        margin: 50px;}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tipografías */
+body {
+    font-family: "Roboto", serif;
+    background-color: #000;
+    height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Rubik Vinyl", serif;
+    color: #fff;
+}
+
+/* Estilos globales */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    background-color: rgb(148, 114, 2);
+    position: relative;
+}
+
+.header-logo img {
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.header-img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.header-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav {
+    width: 100%;
+    background-color: #6b6405;
+    padding: 15px 0;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header-nav li a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.header-login {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.header-login button,
+.header-login a {
+    background-color: #000;
+    color: #c0b518;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* MAIN */
+main {
+    padding: 0px;
+}
+
+.tangoargentino,
+.tangoargentino0 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.biguinners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    padding: 20px;
+}
+
+.Beginners-Courses {
+    color: #f6fafa;
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.texto1 {
+    color: #fff;
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+
+
+.fotodebeso {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.booknow {
+    padding: 10px 30px;
+    border: 2px inset gold;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cardcurso {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-book {
+    width: 100%;
+    max-width: 300px;
+    background-color: rgb(21, 21, 22);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card-book img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.card-book h2,
+.card-book h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.card-book p {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.card-book button {
+    padding: 10px 20px;
+    border: 2px inset gold;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background-color: #020202;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #c0b518;
+    margin-bottom: 10px;
+    display: block;
+}
+
+footer p {
+    color: #fff;
+}
+
+/* MEDIA QUERIES ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* Para tablets */
+@media (max-width:1516px) {
+    .header-nav {
+        flex-direction:row;
+        align-items: center;
+    }
+
+    .header-login {
+        position: static;
+        margin-top: 125px; width:200px;
+        height:100px ; 
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        top: 0;
+        right: 20px;
+        border-radius: 25px 25px 25px 25px;
+    }
+    
+    header .header-logo img{
+        width: 425px;
+        padding-left: 60px; display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        top: 1px;
+        left:1px ;
+    }
+
+
+
+    }
+
+
+    .biguinners {
+        padding: 10px;
+    }
+
+    .texto1 {
+        padding: 0 10px;
+    }
+
+    .cardcurso {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+
+/*tabla 2*/
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: url('https://www.transparenttextures.com/patterns/black-paper.png');
+ font-size: auto;}
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+th {
+    background-color: #f4c27a;
+    font-weight: bold;
+}
+td {
+    background-color: #ffe7c0;
+}
+.bold {
+    font-weight: bold;
+}
+
+  /* Contenedor para alinear imagen y formulario */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Imagen a la izquierda */
+.contact-container img {
+    flex-basis: 45%;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+/* Formulario a la derecha */
+.contact-form {
+    flex-basis: 45%;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-form p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #d40000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #a30000;
+}
+
+/* Footer Social Media */
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #d40000;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #a30000;
+}
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+    @media (max-width: 693px) {
+
+
+footer p{ display: none;}
+
+    .header-nav {
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    }
+
+    .header-login {
+        position: static;
+        margin-top: 145px; width:200px;
+        height:100px ; 
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        top: 0;
+        right: 10px;
+        border-radius: 25px 25px 25px 25px;
+    }
+    
+    header .header-logo img{
+        width: 300px;
+        padding-left: 20px;
+        /* display: flex;
+        /*flex-direction: column;
+        /*align-items: start;
+        /*justify-content: space-around;*/
+        position: absolute;
+        top: 1px;
+        left: 1px ;
+    }
+
+  /* Contenedor para alinear imagen y formulario */
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-form p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #d40000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #a30000;
+}
+
+/* Footer Social Media */
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #d40000;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #a30000;
+}
+
+    }
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+/* Primera sección con imagen y texto */
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Imagen y texto */
+.image {
+    width: 50%;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.info {
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding: 100px;
+    text-align: left;
+}
+
+/* Sección de cursos */
+.courses {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Caja de cada curso */
+.course-box {
+    background-color: #a9ad97;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Botón */
+.button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* RESPONSIVE: De 965px hacia abajo */
+@media (max-width: 965px) {
+    .top-section, .courses {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .image, .info, .course-box {
+        width: 100%;
+    }
+
+    .info {
+        text-align: center;
+    }
+
+    .courses {
+        gap: 10px;
+    }
+}
+
+
+/* ✅ A 320px O MENOS: AGRANDAR ANCHO DEL .info EN 20% MÁS */
+@media (max-width: 320px) {
+    body, .top-section, .courses, .image, .course-box {
+        width: 100%;
+        max-width: 100%;
+    }
+table{font-size: 10px;}
+    .info {
+        width: 100%;  /* Antes era 80%, ahora ocupa el 100% */
+        max-width: 100%;
+        padding: 25px; /* Un poco más de espacio interno */
+    }
+
+    .info p, .course-box p {
+        font-size: 16px; /* Asegura buena legibilidad */
+        line-height: 1.5;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
 
 
 
