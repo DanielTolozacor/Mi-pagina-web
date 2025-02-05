@@ -956,6 +956,8 @@ footer p{ display: none;}
     margin: auto;
 }
 
+.courses:hover{filter: drop-shadow(2px 2px 5px rgb(177, 16, 137) ) }
+
 /* Caja de cada curso */
 .course-box {
     background-color: #a9ad97;
@@ -965,7 +967,6 @@ footer p{ display: none;}
     border-radius: 5px;
 }
 
-/* Botón */
 .button {
     display: inline-block;
     background-color: black;
